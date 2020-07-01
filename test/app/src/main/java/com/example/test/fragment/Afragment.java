@@ -36,6 +36,8 @@ public class Afragment extends Fragment {
         String title=bundle.getString("title");
         textView.setText(title);
         System.out.print("hhhhh");
+        System.out.print("hehehe");
+
 
     }
 }
