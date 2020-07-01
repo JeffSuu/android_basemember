@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#5577AA"
+        android:background="#916F91"
+        android:hint="数字"
+        android:textColorHint="#00FF33"
+        android:inputType="number"
+        android:paddingLeft="15dp"/>
+    <EditText
+        android:id="@+id/ed_3"
+        android:layout_width="match_parent"
+       android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#5577AA"
+        android:background="#916F91"
+        android:layout_below="@+id/edit_2"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btm_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/ed_3"
+        android:layout_margin="10dp"
+        android:background="#F79709"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

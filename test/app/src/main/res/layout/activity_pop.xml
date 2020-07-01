@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical"
+>
+    <Button
+        android:id="@+id/pop_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orange_background"
+        android:text="英语"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/pop_zidingyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orange_background"
+        android:text="我跳！"
+        android:textSize="20sp"/>
+</LinearLayout>

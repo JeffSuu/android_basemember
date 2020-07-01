@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/shared_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sharedpreference"
+        android:textAllCaps="false"
+        android:background="#EE1169"
+        />
+    <TextView
+        android:id="@+id/tv_cast"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/shared_1"
+        android:layout_height="30dp"
+        android:text="广播内容"
+        android:textSize="15sp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/interal_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cast"
+        android:layout_marginTop="15dp"
+        android:background="#44BBA3"
+        android:text="InternalStorage"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

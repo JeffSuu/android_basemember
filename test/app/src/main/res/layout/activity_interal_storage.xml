@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+>
+    <EditText
+        android:id="@+id/et_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入信息："
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/shared_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储信息"
+        android:textAllCaps="false"
+
+        />
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="读取内存文件"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/show_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取文件内容"
+        />
+    <Button
+        android:id="@+id/broad_cast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="广播一下"
+        />
+</LinearLayout>

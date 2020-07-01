@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+>
+    <Button
+        android:id="@+id/dialog_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="对话框一"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/dialog_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="对话框二"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/dialog_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="对话框三"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/dialog_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="对话框四"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/dialog_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="对话框五"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/dialog_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="对话框六"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

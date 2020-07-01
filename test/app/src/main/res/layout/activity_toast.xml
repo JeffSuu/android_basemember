@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:padding="10dp"
+>
+    <Button
+        android:id="@+id/toast_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#B32BD5"
+        android:text="简单的Toast"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/toast_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:background="#00CCFF"
+        android:text="居中的Toast"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/toast_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="自定义的Toast"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/toast_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:background="#EE9611"
+        android:text="封装的Toast"
+        android:textAllCaps="false"/>
+</LinearLayout>
